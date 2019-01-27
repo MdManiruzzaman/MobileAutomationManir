@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import UiCatalogPage.UiCatalog;
 import WebPage.Web;

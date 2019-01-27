@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import ControlsPage.Controls;
 import UiCatalogPage.UiCatalog;
@@ -55,5 +55,4 @@ public class TestControls extends Controls {
     public void testCustomSliderButton() throws InterruptedException {
         controls.checkCustomSliderButton();sleep(2);
     }
-
 }

@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import PickersPage.Picker;
 import UiCatalogPage.UiCatalog;

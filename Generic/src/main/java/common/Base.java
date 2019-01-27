@@ -45,7 +45,7 @@ public class Base {
                       String version)throws IOException,InterruptedException{
 
         if(OS.equalsIgnoreCase("ios")){
-            if(appType.contains("iPhoneTest")){
+            if(appType.contains("testCasesIPhone")){
                 appDirectory = new File("/Users/mrahman/develop/MobileAutomationJuly2018/UICatalog/src/app/UICatalog6.1.app.zip");
                 findApp = new File(appDirectory,"UICatalog6.1.app.zip");
                 if(deviceType.equalsIgnoreCase("RealDevice")){

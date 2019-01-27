@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="iOS test suite on iPhoneTest Simulator">
+<suite name="iOS test suite on testCasesIPhone Simulator">
 
     <parameter name="OS" value="ios"/>
-    <parameter name="appType" value="iPhoneTest"/>
+    <parameter name="appType" value="testCasesIPhone"/>
     <parameter name="deviceType" value="Simulator"/>
-    <parameter name="deviceName" value="iPhoneTest Simulator"/>
+    <parameter name="deviceName" value="testCasesIPhone Simulator"/>
     <parameter name="version" value="10.3"/>
 
-    <test name="iPhoneTest" preserve-order="true">
+    <test name="testCasesIPhone" preserve-order="true">
         <classes>
-            <class name="iPhoneTest.TestAlerts"/>
-           <class name="iPhoneTest.TestButton"/>
-            <class name="iPhoneTest.TestControls"/>
-            <class name="iPhoneTest.TestTextFields"/>
-            <class name="iPhoneTest.TestPicker"/>
-            <class name="iPhoneTest.TestSegments"/>
-            <class name="iPhoneTest.TestToolbar"/>
-            <class name="iPhoneTest.TestWeb"/>
+            <class name="testCasesIPhone.TestAlerts"/>
+           <class name="testCasesIPhone.TestButton"/>
+            <class name="testCasesIPhone.TestControls"/>
+            <class name="testCasesIPhone.TestImages"/>
+            <class name="testCasesIPhone.TestTextFields"/>
+            <class name="testCasesIPhone.TestPicker"/>
+            <class name="testCasesIPhone.TestSegments"/>
+            <class name="testCasesIPhone.TestToolbar"/>
+            <class name="testCasesIPhone.TestWeb"/>
         </classes>
     </test>
 </suite>

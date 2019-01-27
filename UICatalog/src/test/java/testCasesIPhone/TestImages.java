@@ -1,3 +1,5 @@
+package testCasesIPhone;
+
 import ImgesPage.Images;
 import UiCatalogPage.UiCatalog;
 import org.openqa.selenium.support.PageFactory;

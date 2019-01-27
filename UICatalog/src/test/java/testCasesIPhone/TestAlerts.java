@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import AlertsPage.Alerts;
 import UiCatalogPage.UiCatalog;

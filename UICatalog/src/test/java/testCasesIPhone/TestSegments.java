@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import SegmentsPage.Segments;
 import UiCatalogPage.UiCatalog;

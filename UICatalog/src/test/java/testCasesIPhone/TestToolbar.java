@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import ToolbarPage.Toolbar;
 import UiCatalogPage.UiCatalog;

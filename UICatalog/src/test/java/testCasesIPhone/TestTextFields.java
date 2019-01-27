@@ -1,4 +1,4 @@
-package iPhoneTest;
+package testCasesIPhone;
 
 import TextFieldsPage.TextFields;
 import UiCatalogPage.UiCatalog;
