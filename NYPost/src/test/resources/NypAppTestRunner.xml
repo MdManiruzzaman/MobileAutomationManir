@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS test suite on Anroid RealPhone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceName" value="Galaxy Note8"/>
+    <parameter name="version" value="7.1.1"/>
+
+    <test name="NewYorkPost Pages Test" preserve-order="true">
+        <classes>
+            <class name="homePage.HomePageTest"/>
+         <!--   <class name="homePage.BreakingNewsPageTest"/>-->
+        </classes>
+    </test>
+</suite>
