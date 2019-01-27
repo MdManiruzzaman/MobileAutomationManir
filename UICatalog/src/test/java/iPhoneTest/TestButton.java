@@ -1,4 +1,4 @@
-package iPhone;
+package iPhoneTest;
 
 import ButtonsPage.Buttons;
 import UiCatalogPage.UiCatalog;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ButtonTest extends Buttons {
+public class TestButton extends Buttons {
 
     Buttons buttons;
 

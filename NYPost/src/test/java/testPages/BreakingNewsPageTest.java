@@ -1,6 +1,7 @@
-package homePage;
+package testPages;
 
 import common.Base;
+import homePage.BreakingNewsPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
